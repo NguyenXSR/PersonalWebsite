@@ -1,0 +1,80 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before ::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Space Grotesk Bold", -apple-system, BlinkMacSystemFont, Roboto,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  background: url(nature.jpg) no-repeat;
+  background-size: cover;
+}
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+nav .nav-header {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  padding: 5px;
+}
+
+nav .nav-header:hover {
+  background-color: palevioletred;
+}
+.box {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main-box {
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 5%;
+  width: 450px;
+  text-align: center;
+}
+.box-picture {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  padding: 0px;
+}
+
+p {
+  color: salmon;
+}
+.contact-icon {
+  text-align: center;
+}
+div .icon {
+  display: inline-block;
+  margin: 20px;
+}
+.quote {
+  color: lightskyblue;
+}
